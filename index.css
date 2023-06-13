@@ -1,0 +1,110 @@
+.body_content {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.body_text {
+  top: 75px;
+  right: 500px;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  font-size: 50px;
+  align-self: flex-end;
+  font-style: normal;
+  font-weight: 900;
+  color: #000000;
+  font-family: monospace;
+}
+.my_image {
+  top: 75px;
+  left: 75px;
+  width: 700px;
+  height: 550px;
+  position: absolute;
+  align-self: flex-start;
+  object-fit: cover;
+}
+.my_header {
+  left: 500px;
+  align-self: center;
+  align-content: center;
+  font-weight: 100px;
+  font-size: x-large;
+}
+#contact_me {
+  font-family: monospace;
+  font-size: x-large;
+}
+#photo {
+  left: 100px;
+  max-height: 400px;
+  max-width: 400px;
+}
+#vk_ref {
+  position: inherit;
+  right: 10px;
+  max-height: 100px;
+  max-width: 100px;
+}
+#mail_ref {
+  position: inherit;
+  right: 10px;
+  max-height: 100px;
+  max-width: 100px;
+}
+#github_ref {
+  position: inherit;
+  right: 10px;
+  max-height: 100px;
+  max-width: 100px;
+}
+.my_socials {
+  text-decoration: none;
+  position: relative;
+  z-index: 101;
+}
+.navbar {
+  text-decoration: none;
+  list-style: none;
+}
+.navbar,li {
+  display: inline-block;
+  padding-inline-start: 10px;
+}
+.body_slave_text {
+  position: absolute;
+  right: 50px;
+  top: 200px;
+  font-size: 27px;
+  font-family: monospace;
+}
+.body_slave_text_info {
+  font-size: 25px;
+  font-family: monospace;
+}
+.bio {
+  position: absolute;
+  left: 50px;
+  top: 200px;
+  font-size: 27px;
+  font-family: monospace;
+}
+.bio_text {
+  font-size: 25px;
+  font-family: monospace;
+}
+header {
+  background-color: rgb(250, 235, 215);
+  margin: 0;
+  padding: 1vh;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color:  rgb(255, 245, 235);
+}
