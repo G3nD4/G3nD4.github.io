@@ -75,7 +75,19 @@
 .navbar_footer,a {
   display: inline-block;
   font-family: monospace;
-  color: rgb(138, 78, 0);
+
+  border-radius: 20px;
+  -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+.navbar_footer_elem {
+  font-size: 16px;
+  padding: 8px;
+  background-color: rgb(250, 235, 215);
 }
 .body_slave_text {
   color: rgb(138, 78, 0);
