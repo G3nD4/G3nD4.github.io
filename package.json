@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "moment": "^2.29.4",
+    "rollup": "^3.26.0",
+    "tslib": "^2.6.0",
+    "typescript": "^5.1.6"
+  },
+  "type": "module",
+  "name": "webdevfixed",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^25.0.2",
+    "common": "^0.2.5",
+    "common.js": "^1.1.1",
+    "commonjs": "^0.0.1"
+  }
+}
